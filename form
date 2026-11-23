@@ -11,6 +11,9 @@ def user_profile():
     print(f"Age: {age}")
     print(f"Nationality: {nationality}")
     print(f"What you like about coding: {coding_likes}")
+    
+    # End the program with a closing message
+    print("\nThanks for filling the form!")
 
 if __name__ == "__main__":
     user_profile()
