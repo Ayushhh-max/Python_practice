@@ -1,0 +1,16 @@
+def user_profile():
+    # Collect user inputs
+    name = input("Enter your name: ").strip()
+    age = input("Enter your age: ").strip()
+    nationality = input("Enter your nationality: ").strip()
+    coding_likes = input("What do you like about coding? ").strip()
+
+    # Display the formatted output
+    print("\n--- Your Coding Profile ---")
+    print(f"Name: {name}")
+    print(f"Age: {age}")
+    print(f"Nationality: {nationality}")
+    print(f"What you like about coding: {coding_likes}")
+
+if __name__ == "__main__":
+    user_profile()
