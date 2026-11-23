@@ -18,7 +18,7 @@ def calculator():
     while True:
         choice = input("\nEnter choice (1/2/3/4) or 'q' to quit: ").strip().lower()
         if choice == 'q':
-            print("Goodbye!")
+            print("Thanks for using the calculator!")
             break
         if choice in ('1', '2', '3', '4'):
             try:
